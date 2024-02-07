@@ -1,0 +1,29 @@
+name: vpn_checker
+description: "This plugin use for checking the device is using VPN or not. it has one method method isUseVpn(), you just call it if you want to check the device is using VPN or not"
+version: 0.0.1
+maintainer: Kem Emsothea
+homepage: https://github.com/codebox168/display_ads
+repository: https://github.com/codebox168/display_ads
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.codebox168.vpn_checker
+        pluginClass: VpnCheckerPlugin
+      ios:
+        pluginClass: VpnCheckerPlugin
