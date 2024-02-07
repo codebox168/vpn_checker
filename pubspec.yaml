@@ -2,8 +2,8 @@ name: vpn_checker
 description: "This plugin use for checking the device is using VPN or not. it has one method method isUseVpn(), you just call it if you want to check the device is using VPN or not"
 version: 0.0.1
 maintainer: Kem Emsothea
-homepage: https://github.com/codebox168/display_ads
-repository: https://github.com/codebox168/display_ads
+homepage: https://github.com/codebox168/vpn_checker
+repository: https://github.com/codebox168/vpn_checker
 
 environment:
   sdk: ">=3.2.6 <4.0.0"
